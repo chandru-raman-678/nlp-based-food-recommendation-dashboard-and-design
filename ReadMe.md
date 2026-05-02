@@ -1,108 +1,130 @@
-'''
-# Food Suggestion With NLP Analysis
+# 🍽️ Food Suggestion with NLP Analysis <span style="float:right;">March 2025 – May 2025</span> 
 
-## Project Overview
-This project develops a food-based recommendation system designed to improve health outcomes by analyzing both past datasets and current 2025 real-time data.  
-The system focuses on key health indicators such as BMI, diet patterns, and exercise levels to provide personalized, data-driven food suggestions.  
+## **Project Overview**  
+This project develops a **food recommendation system** aimed at improving health outcomes by analyzing both historical datasets and real-time data from 2025.  
 
-The college nutrition website used for data collection was built by my friends, while I handled the backend, data analysis, NLP processing, and visualization.  
-The main goal is to help both business users and customers make informed decisions about nutrition through insights generated from structured and unstructured data.
+The system focuses on key health indicators such as **BMI, dietary patterns, and exercise habits** to generate personalized, data-driven food suggestions.  
 
----
+The data was collected from a **college nutrition website developed by a full-stack team**, where I contributed by handling backend processing, data analysis, NLP implementation, and visualization.  
 
-## My Role and Contributions
-- Managed the entire backend and data analysis workflow.  
-- Collected real-time data from the college website and combined it with past historical datasets.  
-- Cleaned and verified all datasets using Excel Power Query and Python.  
-- Applied NLP techniques to analyze community conversations related to food and fitness.  
-- Built interactive Power BI dashboards for business and customer insights.
+The primary goal is to help both **business stakeholders and users** make informed decisions through insights derived from structured and unstructured data.  
+
+**Project Duration:** March 2025 – May 2025  
 
 ---
 
-## Overall Project Workflow
-
-### 1. Data Collection
-- Data Sources:
-  - Real-time 2025 data gathered from the college nutrition website (built by my teammates).  
-  - Historical and global food-impact datasets used for reference and trend comparison.  
-- Tools Used:
-  - MySQL for database management.  
-  - Python (mysql.connector) for data extraction and CSV export.  
+## **My Role and Contributions**  
+- Collaborated with a **full-stack development team** and utilized their website for real-time data collection  
+- Managed the **complete backend data workflow**, including extraction, processing, and analysis  
+- Collected and integrated **real-time website data with historical datasets** to improve recommendation accuracy  
+- Cleaned and validated datasets using **Excel Power Query and Python (Pandas, NumPy)**  
+- Applied **NLP techniques with Prompt Engineering** to analyze user conversations and generate meaningful insights  
+- Performed sentiment and topic analysis on discussions related to **diet and fitness**  
+- Built **interactive Power BI dashboards** for visualization and reporting  
 
 ---
 
-### 2. Data Cleaning and Preparation
-- Excel Power Query used for:
-  - Removing duplicates and null values.  
-  - Standardizing numeric and categorical data.  
-  - Structuring tables for consistency across years.  
-- Python (Pandas, NumPy) used for:
-  - Data validation and correlation checks.  
-  - Ensuring correct data types and integrity.
+## **Overall Project Workflow**  
 
-**Techniques & Algorithms:**
+### **1. Data Collection**  
+**Data Sources:**  
+- Real-time 2025 data from the college nutrition website (developed by teammates)  
+- Historical and global food datasets for trend comparison  
+
+**Tools Used:**  
+- MySQL for database management  
+- Python (mysql.connector) for data extraction and CSV export  
+
+---
+
+### **2. Data Cleaning and Preparation**  
+**Excel Power Query:**  
+- Removed duplicates and null values  
+- Standardized numeric and categorical data  
+- Structured datasets for consistency  
+
+**Python (Pandas, NumPy):**  
+- Performed data validation and integrity checks  
+- Ensured correct data types and relationships  
+
+**Techniques & Algorithms:**  
 - Missing Value Imputation  
 - Outlier Detection  
-- Pearson Correlation Coefficient (for numeric relationship analysis)
+- Pearson Correlation Coefficient  
 
 ---
 
-### 3. Natural Language Processing (NLP)
-Applied NLP to community chat data to understand diet and fitness discussions.
+### **3. Natural Language Processing (NLP)**  
+Applied NLP techniques to analyze community chat data and understand diet and fitness behavior.  
 
-**Steps & Algorithms Used:**
-1. Tokenization – Split text into individual words.  
-2. Stopword Removal – Eliminate common non-informative words.  
-3. Text Cleaning – Remove punctuation, symbols, and noise using Regex.  
-4. Negation Handling – Detect negation terms like *not*, *never* to correctly interpret sentiment.  
-5. Sentiment Analysis –  
-   - Rule-based approach using positive/negative word lists.  
-   - TextBlob polarity method for cross-validation.  
-6. Workout vs Diet Classification – Categorized messages using keyword matching.  
-7. Topic Extraction – Identify common themes like weight loss, protein diet, healthy lifestyle, etc.
-
----
-
-### 4. Data Verification and Integration
-- Combined past data with current 2025 website data for future-driven insights.  
-- Checked data consistency, shape, and datatypes using df.info() and df.corr().  
-- Validated text-based sentiment patterns with structured health records.
+**Steps & Algorithms Used:**  
+1. Tokenization – Splitting text into words  
+2. Stopword Removal – Removing non-informative words  
+3. Text Cleaning – Removing noise using Regex  
+4. Negation Handling – Interpreting words like *not* and *never* correctly  
+5. Sentiment Analysis:  
+   - Rule-based approach using word lists  
+   - TextBlob polarity method for validation  
+6. Classification – Diet vs Workout discussions  
+7. Topic Extraction – Identifying themes such as weight loss, protein diet, and healthy lifestyle  
 
 ---
 
-### 5. Visualization and Reporting
-Created interactive dashboards using Power BI to visualize both historical and real-time data.
-
-**Key Insights Displayed:**
-- BMI and weight trends over time.  
-- Sentiment distribution (positive, negative, neutral).  
-- Diet vs Workout discussion frequencies.  
-- Regional and gender-based health behavior patterns.  
-
-**Reports Generated:**
-- Business Reports: For company stakeholders to make strategic decisions.  
-- Customer Recommendations: Personalized food and lifestyle suggestions.
+### **4. Data Verification and Integration**  
+- Combined **historical and real-time datasets** for better insights  
+- Verified dataset structure and consistency using:  
+  - df.info()  
+  - df.corr()  
+- Validated NLP results with structured health data  
 
 ---
 
-## Tools and Technologies
+### **5. Visualization and Reporting**  
+Created interactive dashboards using Power BI to present insights effectively.  
 
-| Stage | Tools / Libraries | Key Techniques / Algorithms |
-|-------|--------------------|-----------------------------|
-| Data Collection | MySQL, Python (mysql.connector) | SQL Querying, CSV Export |
-| Data Cleaning | Excel Power Query, Pandas, NumPy | Missing Value Imputation, Correlation Analysis |
-| NLP Processing | NLTK, TextBlob, Regex | Tokenization, Stopword Removal, Sentiment Analysis, Negation Handling |
-| Integration | Pandas, MySQL | Data Merging, Schema Alignment |
-| Visualization | Power BI | Trend Analysis, Filtering, Interactive Dashboards |
-| Environment | Anaconda, VS Code | Full Backend Data Workflow |
+**Key Insights Displayed:**  
+- BMI and weight trends over time  
+- Sentiment distribution (positive, negative, neutral)  
+- Diet vs workout discussion frequency  
+- Regional and gender-based health behavior patterns  
+
+**Reports Generated:**  
+- Business Reports – for strategic decision-making  
+- Customer Recommendations – personalized food and lifestyle suggestions  
 
 ---
 
-## Final Outcome
-By combining past data and current 2025 website data, this project delivers:  
-- Accurate, data-driven reports for business decision-makers.  
-- Personalized recommendations for customers based on their BMI, diet type, and behavior.  
-- A unified system that transforms raw data into actionable insights for real-time health improvement.  
+## **Tools and Technologies**  
 
-This end-to-end solution demonstrates the integration of Excel, MySQL, Python (NLP), and Power BI to create a complete data analytics pipeline supporting a full-stack nutrition website.
-'''
+**Data Collection:**  
+MySQL, Python (mysql.connector), SQL querying, data extraction  
+
+**Data Cleaning:**  
+Excel Power Query, Pandas, NumPy, missing value imputation, correlation analysis  
+
+**NLP Processing:**  
+NLTK, TextBlob, Regex, tokenization, sentiment analysis, negation handling, prompt engineering  
+
+**Data Integration:**  
+Pandas, MySQL, data merging, schema alignment  
+
+**Visualization:**  
+Power BI, interactive dashboards, trend analysis  
+
+**Environment:**  
+Anaconda, VS Code  
+
+---
+
+## **Final Outcome**  
+By combining past and real-time data, this project delivers:  
+
+- Accurate, **data-driven insights** for business decision-making  
+- **Personalized food recommendations** based on user health data  
+- Improved system capability through **data integration and analysis**  
+- A complete pipeline integrating **NLP, data analytics, and visualization**  
+
+---
+
+## **Conclusion**  
+This project demonstrates how combining **data analytics, NLP, and visualization tools** can build an intelligent system for real-world health applications. It highlights the effectiveness of using **Prompt Engineering and NLP techniques** to transform unstructured data into meaningful insights.  
