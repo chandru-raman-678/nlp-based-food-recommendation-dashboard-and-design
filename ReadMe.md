@@ -1,6 +1,6 @@
 # 🍽️ Food Suggestion with NLP Analysis 
 
-# Project Duration: 3 Weeks
+# Project Duration: 2 Month
 
 Project Original Verfication Link : https://github.com/chandru-raman-678/food-suggestion-nlp-analysis/blob/main/Check%20file%20date%20on%20power%20bi.png
 Old GitHub Link: https://github.com/chandru-raman56/FoodSuggestion-NLP-Analysis
