@@ -1,6 +1,6 @@
 # 🍽️ Food Suggestion with NLP Analysis <span style="float:right;">March 2025 – May 2025</span> 
 Project Original Verfication Link : https://github.com/chandru-raman-678/food-suggestion-nlp-analysis/blob/main/Check%20file%20date%20on%20power%20bi.png
-
+Old GitHub Link: https://github.com/chandru-raman56
 ## **Project Overview**  
 This project develops a **food recommendation system** aimed at improving health outcomes by analyzing both historical datasets and real-time data from 2025.  
 
