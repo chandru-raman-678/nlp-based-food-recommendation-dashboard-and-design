@@ -13,8 +13,6 @@ The data was collected from a **college nutrition website developed by a full-st
 
 The primary goal is to help both **business stakeholders and users** make informed decisions through insights derived from structured and unstructured data.  
 
-**Project Duration:** March 2025 – May 2025  
-
 ---
 
 ## **My Role and Contributions**  
