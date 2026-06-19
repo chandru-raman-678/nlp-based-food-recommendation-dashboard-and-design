@@ -1,13 +1,3 @@
-'''
-MySQL Data Retrieval and CSV Export
-
-1. Connect to the MySQL database using host, user, password, and database name.
-2. Execute a SELECT query to get the `chat_row` and `text_message` columns from the table.
-3. Fetch all rows and store them in a pandas DataFrame for easy handling.
-4. Open a file dialog to choose where to save the CSV file.
-5. Export the DataFrame to CSV so it can be used for data cleaning and analysis.
-6. Close the database cursor and connection to free resources.
-'''
 import mysql.connector
 import pandas as pd
 import tkinter as tk
