@@ -1,17 +1,3 @@
-'''
-MySQL Data Retrieval and CSV Export for Login Information
-
-1. Connect to the MySQL database using the specified host, user, password, and database.
-2. Create a cursor object to execute SQL queries.
-3. Execute a SELECT query to fetch `s_no`, `de_date`, `email_id`, `user_name`, and `password` from the `login_information` table.
-4. Fetch all rows returned by the query.
-5. Extract the column names from the cursor description.
-6. Convert the fetched rows into a pandas DataFrame for easy handling.
-7. Use Tkinter's file dialog to allow the user to select a location and filename to save the CSV file.
-8. If a file path is provided, export the DataFrame to CSV and print a success message.
-9. If no file path is selected, print a cancellation message.
-10. Close the database cursor and connection to free resources.
-'''
 import mysql.connector
 import pandas as pd
 import tkinter as tk
