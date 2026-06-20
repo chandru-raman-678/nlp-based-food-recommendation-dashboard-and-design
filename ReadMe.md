@@ -19,22 +19,6 @@ The website contains:
 * Interactive image gallery
 * Responsive project showcase page
 
----
-
-<p align="center">
-  <a href="./Attachments/Videos/DashBoard%20View.mp4">
-    <img src="./Attachments/Images/Screenshot%202026-06-19%20193005.png"
-         width="900"
-         alt="Dashboard Demonstration">
-  </a>
-</p>
-
-<p align="center">
-  <b>▶ Click the dashboard preview image above to watch the complete dashboard demonstration video.</b>
-</p>
-
----
-
 
 ## 📝 Project Description
 
