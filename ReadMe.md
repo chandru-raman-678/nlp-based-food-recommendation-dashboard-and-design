@@ -98,8 +98,6 @@ These are used MySQL for storing data and Prompt Engineering was used for entire
 
 After facing all the difficulties built an interactive and meaningful report using Power BI and created similarity wise dash board with the current 2025 data.
 
-I have attached work samples below.
-
 ---
 
 ## 📷 Work Samples
