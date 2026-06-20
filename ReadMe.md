@@ -8,7 +8,7 @@
 
 ## Dashboard Demonstration
 
-👉 **View Interactive Dashboard Website**
+**View Interactive Dashboard Website**
 
 **Website:**
 https://chandru-raman-678.github.io/food-suggestion-nlp-analysis/
@@ -20,7 +20,7 @@ The website contains:
 * Responsive project showcase page
 
 
-## 📝 Project Description
+## Project Description
 
 This work refers to the entire data analytics work and involves performing data cleaning, data extraction, and data visualization. Major tools used for data cleaning, such as Power Query and Excel, were used here. Power Query was used for past data cleaning, because historical data was used for similarity trend analysis.
 
