@@ -11,7 +11,7 @@
 **View Interactive Dashboard Website**
 
 **Website:**
-https://chandru-raman-678.github.io/food-suggestion-nlp-analysis/
+https://chandru-raman-678.github.io/nlp-based-food-recommendation-dashboard-and-design/
 
 The website contains:
 
